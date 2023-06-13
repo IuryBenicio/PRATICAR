@@ -28,7 +28,7 @@ module.exports = function(grunt){
                     patterns: [
                         {
                             match: 'ENDERECO-CSS',
-                            replacement: './build/style/main.css'
+                            replacement: 'style/main.css'
                         }
                     ]
                 },
