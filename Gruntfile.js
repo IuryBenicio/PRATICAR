@@ -29,6 +29,10 @@ module.exports = function(grunt){
                         {
                             match: 'ENDERECO-CSS',
                             replacement: 'style/main.css'
+                        },
+                        {
+                            match: 'ENDERECO-JS',
+                            replacement: '../src/scrypt/main.js'                            
                         }
                     ]
                 },
